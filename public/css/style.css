@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+}
+nav{
+    background-color: #0dd0ea;
+    /* background-color: #8ACEE8; */
+    
+    padding: 10px;
+    height: 25px;
+    box-shadow: 1px 1px 10px 1px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+}
+/*nav>div{
+    margin-left: 50px;
+} */
+nav>div>a{
+    text-decoration: none;
+}
+.Operation{
+    display: flex;
+    float: right;
+    /* border: solid black; */
+    margin-left: auto;
+    margin-right: 0px;
+    padding: 0 20px;
+}
+.Operation div{
+    margin:0px 50px;
+}
+body{
+    background-color: rgba(225, 225, 225, 0.185);
+}
+.Body{
+    display: flex;
+}
+.Body .Humberger{
+    width: 20%;
+    /* border: solid black; position: relative;width: 100%;*/
+    /*  text-align:center;
+    height: 93vh;
+    top: 45px;
+    left: 0;
+    z-index: 999;*/
+    background-color: white;
+    
+    position: fixed;
+    top: 45px;
+    left: 0;
+    width: 20%;
+    height: 93vh;
+    background-color: white;
+    z-index: 999;
+    
+}
+.Humberger div{
+    align-items:center;
+    padding: 20px 50px;
+}
+.Humberger a{
+    text-decoration:  none;
+}
+.Humberger div:hover{
+    background-color: #8ACEE8;
+}/* */
+/* .Body .Centre{
+    border: solid black;
+} */
+.Centre{
+    background-color: white;
+    /**/ padding: 50px; 
+    margin-top: 0px;
+    margin-left: 270px;
+    display: inline;
+    width: 75%;
+    display: relative;
+    z-index: 1;
+}
+
+h3{
+    text-align: center;
+    padding:25px 0;
+}
+.Centre> input[type=text]{
+    margin-left: 80%;
+    margin-right: 20px;
+}
+table{
+    /* margin-left: 20%; */
+    
+}
+/* for table */
+/* table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dedede;
+} */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: arial, sans-serif;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #0dd0ea;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  td>a{
+    display: block;
+    text-align: center;
+    
+  }
+.lien{
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+    padding: 10px;
+    text-decoration: none;
+    width: fit-content;
+    float: right;
+}
+
+  
+
+  
